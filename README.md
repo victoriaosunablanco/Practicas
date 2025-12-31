@@ -2,7 +2,7 @@
 
 Este repositorio contiene una herramienta desarrollada en Python para
 procesar datos clínicos y genéticos procedentes de un Sistema de
-Información de Laboratorio (SIL) hospitalario, concetramente el SIL 
+Información de Laboratorio (SIL) hospitalario, concretamente el SIL 
 del servicio de genética del Hospital Universitario La Paz y 
 transformarlos al formato estándar **Phenopackets** (GA4GH).
 
