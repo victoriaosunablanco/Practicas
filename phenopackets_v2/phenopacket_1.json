@@ -1,0 +1,146 @@
+{
+  "id": "pheno_1",
+  "subject": {
+    "id": "1",
+    "date_of_birth": "2005-06-07T00:00:00Z",
+    "sex": "FEMALE",
+    "karyotypic_sex": "XX"
+  },
+  "biosamples": [
+    {
+      "id": "phenopacket_biosample_125",
+      "individual_id": "1",
+      "sampled_tissue": {
+        "id": "UBERON:0013756",
+        "label": "Venous blood"
+      },
+      "sample_type": {
+        "id": "SO:0000352",
+        "label": "DNA"
+      },
+      "material_sample": {
+        "id": "UBERON:0000479",
+        "label": "Tissue"
+      }
+    }
+  ],
+  "interpretations": [
+    {
+      "id": "pheno_inter_125",
+      "progress_status": "SOLVED",
+      "diagnosis": {
+        "disease": {
+          "id": "OMIM:101000",
+          "label": "Neurofibromatosis tipo 2"
+        },
+        "genomic_interpretations": [
+          {
+            "subject_or_biosample_id": "phenopacket_biosample_125",
+            "variant_interpretation": {
+              "variation_descriptor": {
+                "id": "pheno_variation_1",
+                "gene_context": {
+                  "value_id": "UNKNOWN",
+                  "symbol": "UNKNOWN",
+                  "alternate_ids": [
+                    "UNKNOWN"
+                  ]
+                },
+                "expressions": [
+                  {
+                    "syntax": "hgvs",
+                    "value": "UNKNOWN"
+                  }
+                ],
+                "vcf_record": {
+                  "genome_assembly": "UNKNOWN",
+                  "chrom": "UNKNOWN",
+                  "ref": "UNKNOWN",
+                  "alt": "UNKNOWN"
+                },
+                "molecule_context": "genomic",
+                "allelic_state": {
+                  "id": "UNKNOWN",
+                  "label": "UNKNOWN"
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "files": [
+    {
+      "uri": "[' Ruta fichero - germinal : /Exomas_Clinica/241021_Exomas']",
+      "file_attributes": {
+        "description": "['NovaSeq6000-Exoma-V2---Run1111111-D-END1-11\u2026', ' Analisis-Pipeline Germinal', ' No ventana']",
+        "genomeAssembly": "UNKNOWN"
+      }
+    }
+  ],
+  "meta_data": {
+    "created": "2025-12-31T09:01:53.430148Z",
+    "created_by": "Victoria",
+    "submitted_by": "_____",
+    "resources": [
+      {
+        "id": "uberon",
+        "name": "Uberon Anatomy Ontology",
+        "url": "http://purl.obolibrary.org/obo/uberon.owl",
+        "version": "2025-04-09",
+        "namespace_prefix": "UBERON",
+        "iri_prefix": "http://purl.obolibrary.org/obo/UBERON_"
+      },
+      {
+        "id": "ncit",
+        "name": "NCI Thesaurus OBO Edition",
+        "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit",
+        "version": "25.06e",
+        "namespace_prefix": "NCIT",
+        "iri_prefix": "http://purl.obolibrary.org/obo/NCIT_"
+      },
+      {
+        "id": "so",
+        "name": "The Sequence Ontology",
+        "url": "http://www.sequenceontology.org/",
+        "version": "2024-11-18",
+        "namespace_prefix": "SO",
+        "iri_prefix": "http://purl.obolibrary.org/obo/SO_"
+      },
+      {
+        "id": "hgnc",
+        "name": "HUGO Gene Nomenclature Committee",
+        "url": "https://www.genenames.org/",
+        "version": "2025-10-22",
+        "namespace_prefix": "HGNC",
+        "iri_prefix": "https://www.genenames.org/data/gene-symbol-report/#!/hgnc_id/"
+      },
+      {
+        "id": "refseq",
+        "name": "NCBI Reference Sequence Database (RefSeq)",
+        "url": "https://www.ncbi.nlm.nih.gov/refseq/",
+        "version": "Release 232",
+        "namespace_prefix": "RefSeq",
+        "iri_prefix": "https://www.ncbi.nlm.nih.gov/nuccore/"
+      },
+      {
+        "id": "variantvalidator",
+        "name": "VariantValidator",
+        "url": "https://variantvalidator.org/",
+        "version": "3.0.2.dev143+g6213c80fe",
+        "namespace_prefix": "VV",
+        "iri_prefix": "https://variantvalidator.org/"
+      },
+      {
+        "id": "geno",
+        "name": "GENO Ontology",
+        "url": "https://www.ebi.ac.uk/ols4/ontologies/geno",
+        "version": "2025-07-25",
+        "namespace_prefix": "GENO",
+        "iri_prefix": "https://www.ebi.ac.uk/ols4/search?lang=en&q=GENO%3A*******&ontology=geno"
+      }
+    ],
+    "phenopacket_schema_version": "2.0"
+  }
+}

@@ -1,0 +1,146 @@
+{
+  "id": "pheno_3",
+  "subject": {
+    "id": "3",
+    "date_of_birth": "2020-10-10T00:00:00Z",
+    "sex": "FEMALE",
+    "karyotypic_sex": "XX"
+  },
+  "biosamples": [
+    {
+      "id": "phenopacket_biosample_123",
+      "individual_id": "3",
+      "sampled_tissue": {
+        "id": "UBERON:0003614",
+        "label": "Blood vessel elastic tissue"
+      },
+      "sample_type": {
+        "id": "SO:0000352",
+        "label": "DNA"
+      },
+      "material_sample": {
+        "id": "UBERON:0000479",
+        "label": "Tissue"
+      }
+    }
+  ],
+  "interpretations": [
+    {
+      "id": "pheno_inter_123",
+      "progress_status": "SOLVED",
+      "diagnosis": {
+        "disease": {
+          "id": "UNKNOWN",
+          "label": "Malformaciones vasculares"
+        },
+        "genomic_interpretations": [
+          {
+            "subject_or_biosample_id": "phenopacket_biosample_123",
+            "variant_interpretation": {
+              "variation_descriptor": {
+                "id": "pheno_variation_3",
+                "gene_context": {
+                  "value_id": "UNKNOWN",
+                  "symbol": "UNKNOWN",
+                  "alternate_ids": [
+                    "UNKNOWN"
+                  ]
+                },
+                "expressions": [
+                  {
+                    "syntax": "hgvs",
+                    "value": "UNKNOWN"
+                  }
+                ],
+                "vcf_record": {
+                  "genome_assembly": "UNKNOWN",
+                  "chrom": "UNKNOWN",
+                  "ref": "UNKNOWN",
+                  "alt": "UNKNOWN"
+                },
+                "molecule_context": "genomic",
+                "allelic_state": {
+                  "id": "UNKNOWN",
+                  "label": "UNKNOWN"
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "files": [
+    {
+      "uri": "[' Ruta fichero - germinal : /panel_M/11_M-v6.1New-P', ' Ruta fichero - mosaicos : panel_M/mosaicos/11_M-v61-1New-P1_samples', ' Ruta fichero - germinal : panel_M/_M-v1.1New-P1', ' Ruta fichero - mosaicos : panel_M/mosaicos/11_M-v61-1New-P1_samples', ' Ruta fichero - germinal : panel_M/_M-v1.1New-P1', ' Ruta fichero - mosaicos : panel_M/_M-v1.1New-P1\u2026']",
+      "file_attributes": {
+        "description": "['NovaSeq6000-M-V1\u2014P1-Run11\u2014MA-11-10_S3', 'NovaSeq6000-M-V1\u2014P1-Run11\u2014MA-11-10_S3', 'NovaSeq6000-M-V1\u2014P1-Run11\u2014MA-11-10_S3', 'NovaSeq6000-M-V1\u2014P1-Run11--MA-11-10_S3', 'NovaSeq6000-M-V1\u2014P1-Run11--MA-11-10_S3', ' Analisis-Pipeline Mosaicos-Germinal', ' Analisis-Pipeline Mosaicos-Germinal', ' No ventana']",
+        "genomeAssembly": "UNKNOWN"
+      }
+    }
+  ],
+  "meta_data": {
+    "created": "2025-12-31T09:01:53.443094Z",
+    "created_by": "Victoria",
+    "submitted_by": "_____",
+    "resources": [
+      {
+        "id": "uberon",
+        "name": "Uberon Anatomy Ontology",
+        "url": "http://purl.obolibrary.org/obo/uberon.owl",
+        "version": "2025-04-09",
+        "namespace_prefix": "UBERON",
+        "iri_prefix": "http://purl.obolibrary.org/obo/UBERON_"
+      },
+      {
+        "id": "ncit",
+        "name": "NCI Thesaurus OBO Edition",
+        "url": "https://www.ebi.ac.uk/ols4/ontologies/ncit",
+        "version": "25.06e",
+        "namespace_prefix": "NCIT",
+        "iri_prefix": "http://purl.obolibrary.org/obo/NCIT_"
+      },
+      {
+        "id": "so",
+        "name": "The Sequence Ontology",
+        "url": "http://www.sequenceontology.org/",
+        "version": "2024-11-18",
+        "namespace_prefix": "SO",
+        "iri_prefix": "http://purl.obolibrary.org/obo/SO_"
+      },
+      {
+        "id": "hgnc",
+        "name": "HUGO Gene Nomenclature Committee",
+        "url": "https://www.genenames.org/",
+        "version": "2025-10-22",
+        "namespace_prefix": "HGNC",
+        "iri_prefix": "https://www.genenames.org/data/gene-symbol-report/#!/hgnc_id/"
+      },
+      {
+        "id": "refseq",
+        "name": "NCBI Reference Sequence Database (RefSeq)",
+        "url": "https://www.ncbi.nlm.nih.gov/refseq/",
+        "version": "Release 232",
+        "namespace_prefix": "RefSeq",
+        "iri_prefix": "https://www.ncbi.nlm.nih.gov/nuccore/"
+      },
+      {
+        "id": "variantvalidator",
+        "name": "VariantValidator",
+        "url": "https://variantvalidator.org/",
+        "version": "3.0.2.dev143+g6213c80fe",
+        "namespace_prefix": "VV",
+        "iri_prefix": "https://variantvalidator.org/"
+      },
+      {
+        "id": "geno",
+        "name": "GENO Ontology",
+        "url": "https://www.ebi.ac.uk/ols4/ontologies/geno",
+        "version": "2025-07-25",
+        "namespace_prefix": "GENO",
+        "iri_prefix": "https://www.ebi.ac.uk/ols4/search?lang=en&q=GENO%3A*******&ontology=geno"
+      }
+    ],
+    "phenopacket_schema_version": "2.0"
+  }
+}
