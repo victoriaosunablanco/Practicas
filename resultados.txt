@@ -1,0 +1,310 @@
+[
+    {
+        "archivo": "pre_pheno_1.xls",
+        "subject_data": [
+            "pheno_1",
+            "1",
+            "2005-06-07 00:00:00"
+        ],
+        "sex_input": "FEMALE",
+        "sex_detected": "XX",
+        "biosample_data": [
+            "phenopacket_biosample_125",
+            "UBERON:0013756",
+            "Venous blood",
+            "SO:0000352",
+            "DNA"
+        ],
+        "interpretation_data": [
+            "pheno_inter_125",
+            "SOLVED"
+        ],
+        "interpretations_diagnosis": [
+            "OMIM:101000",
+            "Neurofibromatosis tipo 2"
+        ],
+        "interpretations_genomic_interpretations": [
+            "phenopacket_biosample_125",
+            [
+                "UNKNOWN"
+            ],
+            [
+                "UNKNOWN"
+            ],
+            [
+                "NOT_PROVIDED"
+            ],
+            "pheno_variation_1",
+            "GENOMIC",
+            "hgvs",
+            [],
+            [],
+            [],
+            []
+        ],
+        "Medical_actions": [
+            "NCIT:C15709",
+            "Genetic Testing"
+        ],
+        "File": [
+            "UNKNOWN",
+            "['NovaSeq6000-Exoma-V2---Run1111111-D-END1-11\u2026', ' Analisis-Pipeline Germinal', ' No ventana']",
+            "[' Ruta fichero - germinal : /Exomas_Clinica/241021_Exomas']"
+        ],
+        "vcf": [
+            [
+                "UNKNOWN"
+            ],
+            [
+                "UNKNOWN"
+            ],
+            [
+                "UNKNOWN"
+            ],
+            [
+                "UNKNOWN"
+            ],
+            [
+                "UNKNOWN"
+            ]
+        ]
+    },
+    {
+        "archivo": "pre_pheno_2.xls",
+        "subject_data": [
+            "pheno_2",
+            "2",
+            "1900-02-02 00:00:00"
+        ],
+        "sex_input": "FEMALE",
+        "sex_detected": "XX",
+        "biosample_data": [
+            "phenopacket_biosample_555",
+            "UBERON:0013756",
+            "Venous blood",
+            "SO:0000352",
+            "DNA"
+        ],
+        "interpretation_data": [
+            "pheno_inter_555",
+            "SOLVED"
+        ],
+        "interpretations_diagnosis": [
+            "UNKNOWN",
+            "Displasias esquel\u00e9ticas"
+        ],
+        "interpretations_genomic_interpretations": [
+            "phenopacket_biosample_555",
+            [
+                "COL1A1"
+            ],
+            [
+                "NM_000088.4:c.401T>A"
+            ],
+            [
+                "UNCERTAIN_SIGNIFICANCE"
+            ],
+            "pheno_variation_2",
+            "GENOMIC",
+            "hgvs",
+            [
+                "HGNC:2197"
+            ],
+            [
+                "Variante aa : p.(Ile134Asn)"
+            ],
+            "HETEROCIGOSIS",
+            "GENO:0000135"
+        ],
+        "Medical_actions": [
+            "NCIT:C15709",
+            "Genetic Testing"
+        ],
+        "File": [
+            "GRCh37",
+            "['NovaSeq6000-DE-V1\u2014P-Run24-DIS-END-1\u2026', ' Analisis-Pipeline Germinal', ' Analisis-Pipeline Zonas problem\u00e1ticas', ' Ventana (Panel: DE) displasias_v1-v1', ' NGS Ventana (Panel: DE)']",
+            "[' Ruta fichero - germinal : /panel_DE/24_DE-v1.1New-P1', ' Ruta fichero - zonas problem\u00e1ticas : /panel_DE/24_DE-v1.1New-P1New-P/a-11-0_DE-Reg_24']"
+        ],
+        "vcf": [
+            [
+                "GRCh37"
+            ],
+            [
+                "hg19"
+            ],
+            [
+                "48276657"
+            ],
+            [
+                "A"
+            ],
+            [
+                "T"
+            ]
+        ]
+    },
+    {
+        "archivo": "pre_pheno_3.xls",
+        "subject_data": [
+            "pheno_3",
+            "3",
+            "2020-10-10 00:00:00"
+        ],
+        "sex_input": "FEMALE",
+        "sex_detected": "XX",
+        "biosample_data": [
+            "phenopacket_biosample_123",
+            "UBERON:0003614",
+            "Blood vessel elastic tissue",
+            "SO:0000352",
+            "DNA"
+        ],
+        "interpretation_data": [
+            "pheno_inter_123",
+            "SOLVED"
+        ],
+        "interpretations_diagnosis": [
+            "UNKNOWN",
+            "Malformaciones vasculares"
+        ],
+        "interpretations_genomic_interpretations": [
+            "phenopacket_biosample_123",
+            [
+                "UNKNOWN"
+            ],
+            [
+                "UNKNOWN"
+            ],
+            [
+                "NOT_PROVIDED"
+            ],
+            "pheno_variation_3",
+            "GENOMIC",
+            "hgvs",
+            [],
+            [],
+            [],
+            []
+        ],
+        "Medical_actions": [
+            "NCIT:C15709",
+            "Genetic Testing"
+        ],
+        "File": [
+            "UNKNOWN",
+            "['NovaSeq6000-M-V1\u2014P1-Run11\u2014MA-11-10_S3', 'NovaSeq6000-M-V1\u2014P1-Run11\u2014MA-11-10_S3', 'NovaSeq6000-M-V1\u2014P1-Run11\u2014MA-11-10_S3', 'NovaSeq6000-M-V1\u2014P1-Run11--MA-11-10_S3', 'NovaSeq6000-M-V1\u2014P1-Run11--MA-11-10_S3', ' Analisis-Pipeline Mosaicos-Germinal', ' Analisis-Pipeline Mosaicos-Germinal', ' No ventana']",
+            "[' Ruta fichero - germinal : /panel_M/11_M-v6.1New-P', ' Ruta fichero - mosaicos : panel_M/mosaicos/11_M-v61-1New-P1_samples', ' Ruta fichero - germinal : panel_M/_M-v1.1New-P1', ' Ruta fichero - mosaicos : panel_M/mosaicos/11_M-v61-1New-P1_samples', ' Ruta fichero - germinal : panel_M/_M-v1.1New-P1', ' Ruta fichero - mosaicos : panel_M/_M-v1.1New-P1\u2026']"
+        ],
+        "vcf": [
+            [
+                "UNKNOWN"
+            ],
+            [
+                "UNKNOWN"
+            ],
+            [
+                "UNKNOWN"
+            ],
+            [
+                "UNKNOWN"
+            ],
+            [
+                "UNKNOWN"
+            ]
+        ]
+    },
+    {
+        "archivo": "pre_pheno_4.xls",
+        "subject_data": [
+            "pheno_4",
+            "4",
+            "2007-03-03 00:00:00"
+        ],
+        "sex_input": "MALE",
+        "sex_detected": "XY",
+        "biosample_data": [
+            "phenopacket_biosample_987",
+            "UBERON:0013756",
+            "Venous blood",
+            "SO:0000352",
+            "DNA"
+        ],
+        "interpretation_data": [
+            "pheno_inter_987",
+            "SOLVED"
+        ],
+        "interpretations_diagnosis": [
+            "UNKNOWN",
+            "Distrofias musculares/miopat\u00edas"
+        ],
+        "interpretations_genomic_interpretations": [
+            "phenopacket_biosample_987",
+            [
+                "COL6A2",
+                "COL6A2",
+                "LMNA"
+            ],
+            [
+                "NM_001849.4:c.897del",
+                "NM_001849.4:c.2688_2701dup ",
+                "NM_170707.3:c.1279C>T"
+            ],
+            [
+                "LIKELY_PATHOGENIC",
+                "LIKELY_PATHOGENIC",
+                "UNCERTAIN_SIGNIFICANCE"
+            ],
+            "pheno_variation_4",
+            "GENOMIC",
+            "hgvs",
+            [
+                "HGNC:2212",
+                "HGNC:2212",
+                "HGNC:6636"
+            ],
+            [
+                "Variante aa : p.(Lys300Argfs*108) ",
+                "Variante aa : p.(Ile901Thrfs*16)",
+                "Variante aa : p.(Arg427Cys)"
+            ],
+            "HETEROCIGOSIS",
+            "GENO:0000135"
+        ],
+        "Medical_actions": [
+            "NCIT:C15709",
+            "Genetic Testing"
+        ],
+        "File": [
+            "GRCh37",
+            "['NovaSeq6000-M-V1\u2014P1-Run11--MA-11-10_S3', ' Analisis-Pipeline Germinal', ' Ventana (Panel: Exoma) MIOP_v3-v1', ' NGS Ventana (Panel: Exoma)']",
+            "[' Ruta fichero - germinal : /Exomas_Clinica/2_Exomas']"
+        ],
+        "vcf": [
+            [
+                "GRCh37",
+                "GRCh37",
+                "GRCh37"
+            ],
+            [
+                "chr21",
+                "chr21",
+                "chr1"
+            ],
+            [
+                "47535964",
+                "47552094",
+                "156106126"
+            ],
+            [
+                "N",
+                "N",
+                "C"
+            ],
+            [
+                "DEL",
+                "DUP",
+                "T"
+            ]
+        ]
+    }
+]
