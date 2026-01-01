@@ -50,7 +50,7 @@ El repositorio contiene los siguientes archivos y carpetas:
 ## Flujo de trabajo
 
 1.  **Procesamiento del Excel maestro**\
-    `procesar_excel_v2.py` lee el archivo `ejemplo_final.xlsx`, elimina
+    `procesar_excel_v2.py` lee el archivo `ejemplo_final.ods`, elimina
     registros duplicados y genera subarchivos por NHC.
 
 2.  **Extracción y normalización de variables**\
@@ -88,7 +88,7 @@ pip install pandas openpyxl odfpy requests phenopackets protobuf
 
 ## Consideraciones sobre los datos
 
-Por motivos de privacidad, los siguientes campos del archivo ejemplo_final.xlsx
+Por motivos de privacidad, los siguientes campos del archivo ejemplo_final.ods
 han sido **falseados o anonimizados**:
 
 -   Número de historia clínica (NHC)
@@ -109,7 +109,7 @@ desarrollo.
 ## Resultados
 
 El resultado final del proceso son archivos Phenopacket en formato JSON,
-compatibles con herramientas de la GA4GH como Beacon (Beacon Friendly
-Format), lo que confirma la validez de los Phenopackets generados.
+estos Phenopackets finales se pueden encontrar en la carpeta 
+**phenopackets_v2/** .
 
 ------------------------------------------------------------------------
