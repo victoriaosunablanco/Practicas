@@ -51,17 +51,21 @@ El repositorio contiene los siguientes archivos y carpetas:
 
 1.  **Procesamiento del Excel maestro**\
     `procesar_excel_v2.py` lee el archivo `ejemplo_final.ods`, elimina
-    registros duplicados y genera subarchivos por NHC.
+    registros duplicados y genera subarchivos por NHC. En caso de querer
+    procesar otro archivo, es necesario modificar el parametro
+    'archivo_entrada' y especificar en él el nombre del nuevo
+    archivo que se desee procesar. 
+    
 
-2.  **Extracción y normalización de variables**\
+3.  **Extracción y normalización de variables**\
     `obtener_variables_v2.py` procesa los subarchivos y genera el archivo
     intermedio `resultados.txt`.
 
-3.  **Creación de Phenopackets**\
+4.  **Creación de Phenopackets**\
     `crear_phenopackets_v2.py` genera los Phenopackets individuales en
     formato JSON.
 
-4.  **Ejecución conjunta**\
+5.  **Ejecución conjunta**\
     `Herramienta_Phenopackets.py` permite ejecutar todo el flujo de
     forma automática.
 
